@@ -1,0 +1,164 @@
+body {
+            font-family: Arial, sans-serif;
+        
+            background: linear-gradient(to bottom, #001F3F, #043769, #f8f8f8);           
+            margin: 0;
+            padding: 20px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, navy, skyblue);
+    padding: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.logo img {
+    height: 60px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+
+main {
+    margin-top: 100px; 
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, navy, skyblue);
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Button Styling */
+.home-content button {
+    background: white;
+    color: navy;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.home-content button:hover {
+    background: navy;
+    color: white;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+figure {
+    margin: 20px 0;
+}
+
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: navy;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ffdf00;
+}
